@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+    text-align: center;
+  }
+  body{        
+    width: 480px; 
+       margin: 0 auto;  
+           }
+
+
+  header{
+    border: 1px black solid;
+    width: 480px;
+    height: 75px;
+    line-height: 75px;
+    background-color:  rgb(187, 166, 112);
+}
+footer{
+    border: 1px black solid;
+    width: 480px;
+    height: 80px;
+    line-height: 80px;
+    background-color: rgb(165, 125, 211);
+      display: inline-block
+  }
