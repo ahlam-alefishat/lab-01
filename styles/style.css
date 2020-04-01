@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+    text-align: center;
+  }
+  
+  body{        
+    width: 480px;
+    margin: auto; 
+  }
+  #a{
+    border: 1px black solid;
+    width: 480px;
+    height: 75px;
+    line-height: 75px;
+    background-color:#FF3E80;
+    border-bottom: none;
+}
+
+  #b{ border: 1px black solid;
+    width: 480px;
+    height: 150px;
+    line-height: 150px;
+    background-color: #FF5396;
+    border-right: none;
+    float: left;
+
+  }
+ #c,#d {
+    float: left;
+    border: 1px black solid;
+    width: 480px;
+    height: 125px;
+    line-height: 125px;
+    border-bottom: none;
+    border-right: none; 
+  }
+  #c{
+      background-color:#FF68AB;
+  }
+  #d{
+    background-color:#FF7CBF;
+}
+#e{
+    background-color:#FF8ED4;
+    border-right: none; 
+
+}
+#f{
+    background-color:#FF9FE7;
+    border-right: none; 
+
+}
+#g{
+    background-color:#FFAEFA;
+    border-right: none; 
+
+}
+#h{
+    background-color:#F1B8FF;
+}
+   #e,#f,#g,#h{
+    border: 1px black solid;
+    width: 240px;
+    height: 250px;
+    line-height: 250px;
+    float: left;
+/* border-left: none; */
+border-bottom: none;
+  }
+  #i{
+    border: 1px black solid;
+    width: 480px;
+    height: 80px;
+    line-height: 80px;
+    background-color: #FFBFEF;
+      display: inline-block; 
+     }
+    
+  /* //////////////////////////////////////layout////////////////////// */
+  /* ///////////////base////////////////////////////////////////// */
+  @media (min-width:768px){
+    body{
+      width:960px;
+      }
+
+     #a{
+        width: 960px;
+        height: 100px;
+        line-height: 100px;
+      }
+
+    #b{
+      width: 200px;
+      height: 600px;
+      line-height: 600px;
+ 
+    }
+    #c,#d{
+      width: 380px;
+      height: 200px;
+      line-height: 200px;
+    }
+     #e,#f,#g,#h  {
+      width: 190px;
+      height: 250px;
+      line-height: 250px;
+    }
+     #i{
+      width: 760px;
+      height: 150px;
+      line-height: 80px;
+    }
+   }
+   /* /////////////////////////////////////////modules////////////////////////// */
+
+
+   
+
+   
