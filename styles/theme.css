@@ -1,33 +1,92 @@
-/* @media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1024px) {
 
-#a{
-    background-color: rgb(173, 121, 43);
-}
-#b{
-    background-color: rgb(170, 127, 62);
-}
-#c{
-    background-color: rgb(173, 121, 43);
-}
-#d{
-    background-color: rgb(173, 121, 43);
-}
-#e{
-    background-color: rgb(173, 121, 43);
-}
-#f{
-    background-color: rgb(173, 121, 43);
-}
-#g{
-    background-color: rgb(173, 121, 43);
-}
-#h{
-    background-color: rgb(173, 121, 43);
-}
-#i{
-    background-color: rgb(173, 121, 43);
-}
-
-
-}
- */
+    #a{
+        background-color: rgb(173, 121, 43);
+    }
+    #b{
+        background-color: rgb(97, 189, 195);
+    }
+    #c{
+        background-color: rgb(101, 99, 124);
+    }
+    #d{
+        background-color: rgb(60, 107, 177);
+    }
+    #e{
+        background-color: rgb(195, 197, 46);
+    }
+    #f{
+        background-color: rgb(207, 184, 148);
+    }
+    #g{
+        background-color: rgb(167, 134, 85);
+    }
+    #h{
+        background-color: rgb(171, 180, 93);
+    }
+    #i{
+        background-color: rgb(140, 151, 36);
+    }
+    
+    
+    }
+    
+    @media only screen and (max-width:767px){
+        #a{
+            background-color: rgb(29, 5, 165);
+        }
+        #b{
+            background-color: rgb(40, 17, 167);
+        }
+        #c{
+            background-color: rgb(48, 28, 161);
+        }
+        #d{
+            background-color: rgb(63, 46, 161);
+        }
+        #e{
+            background-color:rgb(81, 68, 156);
+        }
+        #f{
+            background-color: rgb(94, 83, 153);
+        }
+        #g{
+            background-color: rgb(127, 123, 148);
+        }
+        #h{
+            background-color: rgb(95, 86, 143);
+        }
+        #i{
+            background-color: rgb(107, 101, 143);
+        }
+    }
+    
+    @media screen and (min-width:1025px){    
+        #a{
+        background-color:#FF3E80;
+    }
+    #b{
+        background-color: #FF5396;
+    }
+    #c{
+        background-color:#FF68AB;
+    }
+    #d{
+      background-color:#FF7CBF;
+    }
+    #e{
+      background-color:#FF8ED4;
+    }
+    #f{
+      background-color:#FF9FE7;
+    }
+    #g{
+      background-color:#FFAEFA;
+    }
+    #h{
+      background-color:#F1B8FF;
+    }
+    #i{
+        background-color:#F1B8FF;
+      }
+    }
