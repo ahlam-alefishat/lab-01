@@ -1,11 +1,15 @@
 * {
+  border: 1px solid black;
     box-sizing: border-box;
     text-align: center;
   }
-  
+  @media only screen and (max-width:767px){
   body{        
     width: 480px;
     margin: auto; 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
   }
   #a{
     border: 1px black solid;
@@ -23,10 +27,16 @@
     background-color: #FF5396;
     border-right: none;
     float: left;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 
   }
  #c,#d {
     float: left;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     border: 1px black solid;
     width: 480px;
     height: 125px;
@@ -64,6 +74,9 @@
     height: 250px;
     line-height: 250px;
     float: left;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 /* border-left: none; */
 border-bottom: none;
   }
@@ -75,12 +88,13 @@ border-bottom: none;
     background-color: #FFBFEF;
       display: inline-block; 
      }
-    
+    }
   /* //////////////////////////////////////layout////////////////////// */
   /* ///////////////base////////////////////////////////////////// */
-  @media (min-width:768px){
-    body{
+  @media only screen and (min-width:1025px) {
+  body{
       width:960px;
+      margin: auto;
       }
 
      #a{
@@ -93,6 +107,9 @@ border-bottom: none;
       width: 200px;
       height: 600px;
       line-height: 600px;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
  
     }
     #c,#d{
@@ -104,11 +121,15 @@ border-bottom: none;
       width: 190px;
       height: 250px;
       line-height: 250px;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
     }
      #i{
       width: 760px;
       height: 150px;
       line-height: 80px;
+      display: inline-block; 
     }
    }
    /* /////////////////////////////////////////modules////////////////////////// */
